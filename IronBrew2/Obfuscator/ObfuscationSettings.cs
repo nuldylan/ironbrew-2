@@ -16,8 +16,8 @@ namespace IronBrew2.Obfuscator
 		
 		public ObfuscationSettings()
 		{
-			EncryptStrings = false;
-			EncryptImportantStrings = false;
+			EncryptStrings = true;
+			EncryptImportantStrings = true;
 			ControlFlow = true;
 			BytecodeCompress = true;
 			DecryptTableLen = 500;
